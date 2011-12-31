@@ -31,6 +31,7 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.view.ActionProvider;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -1695,6 +1696,41 @@ public class ActionBar extends RelativeLayout {
 
 		public void setShowAsAction(int actionEnum) {
 			// TODO Auto-generated method stub
+		}
+
+		public boolean collapseActionView() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		public boolean expandActionView() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		public ActionProvider getActionProvider() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public boolean isActionViewExpanded() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		public MenuItem setActionProvider(ActionProvider arg0) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public MenuItem setOnActionExpandListener(OnActionExpandListener arg0) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public MenuItem setShowAsActionFlags(int arg0) {
+			// TODO Auto-generated method stub
+			return null;
 		}
 	}
 
